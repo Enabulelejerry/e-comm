@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<meta name="keyword" content="">
+	<link rel="stylesheet" type="text/css" href="fonts/css/all.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title></title>
+</head>
+
+<body>
+	<div id="top">
+		<!-- Top Begin -->
+		<div class="container">
+			<!-- Container Begin -->
+			<div class="row">
+				<!-- Row Begin -->
+				<div class="col-md-6 offer">
+					<!-- col-md-6 offer Begin -->
+					<a href="" class="btn btn-success btn-sm">Welcome</a>
+					<a href="#">4 Items In Your Cart | Total Price: $300</a>
+				</div><!-- col-md-6 offer End -->
+				<div class="col-md-6">
+					<!-- col-md-6 Begin -->
+					<ul class="menu">
+						<!-- menu Begin -->
+						<li>
+							<a href="customer_register.html">Register</a>
+						</li>
+						<li>
+							<a href="#">My Account</a>
+						</li>
+						<li>
+							<a href="cart.html">Go To Cart</a>
+						</li>
+						<li>
+							<a href="#">Login</a>
+						</li>
+					</ul><!-- menu End -->
+				</div><!-- col-md-6 End -->
+			</div><!-- Row End -->
+		</div><!-- Container End -->
+	</div><!-- Top End -->
+	<nav id="navbar" class="navbar navbar-expand-md navbar-dark">
+		<!--  navbar-expand-md begin -->
+		<div class="container">
+			<a href="index.html" class="navbar-brand home">JTECH</a>
+
+			<button class="navbar-toggler bg-dark mr-4" type="button" data-toggle="collapse" data-target="#search" aria-controls="navbarSearch" aria-expanded="false" aria-label="Toggle navigation">
+				<span> <i class="fa fa-search"></i></span>
+			</button>
+
+			<button class="navbar-toggler bg-dark" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarsExampleDefault">
+				<ul class="nav navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="index.html">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="shop.html">Shop</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">My Account</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="cart.html">Shopping Cart</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="contact.html">Contact Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="ml-auto d-flex">
+				<div class="collapse navbar-collapse mr-3">
+					<button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#search">
+						<i class="fa fa-search"></i>
+					</button>
+				</div>
+				<a href="cart.html" class="btn navbar-btn btn-primary">
+					<i class="fa fa-shopping-cart"></i>
+					<span>4 Items In Your Cart</span>
+				</a>
+			</div>
+
+			<div class="collapse clearfix" id="search">
+				<form method="get" action="result.php" class="navbar-form">
+					<div class="input-group d-flex">
+						<input type="text" class="form-control" placeholder="Search" name="user_query" required>
+						<button type="submit" name="search" class="btn btn-primary"><i class="fa fa-search"></i></button>
+					</div>
+				</form>
+			</div>
+		</div>
+	</nav><!--  navbar-expand-md end -->
+
+	<div id="content">
+		<!-- #content begin -->
+		<div class="container">
+			<!-- container begin -->
+			<div class="row">
+				<!-- row begin -->
+				<div class="col-md-12">
+					<!-- col-md-12 begin -->
+					<ul class="breadcrumb pr-2">
+						<!-- breadcrumb begin -->
+						<li>
+							<a href="index.html">Home</a>
+						</li>
+						<li>
+							Shop
+						</li>
+					</ul><!-- breadcrumb end -->
+				</div><!-- col-md-12 end -->
+
+				<div class="col-md-3">
+					<!-- col-md-3 begin -->
+					<div class="card sidebar-menu mb-3">
+						<!-- card sidebar-menu begin -->
+
+						<div class="card-header">
+							<!-- card-header begins -->
+							<h3 class="card-title">Products Categories</h3>
+						</div><!-- card-header ends -->
+
+						<div class="card-body">
+							<!-- card-body begin -->
+							<ul class="category-menu">
+								<!-- nav nav-pills nav-stacked category-menu begin -->
+								<li><a href="#">Jacket</a></li>
+								<li><a href="#">Accessories</a></li>
+								<li><a href="#">Shoes</a></li>
+								<li><a href="#">Coat</a></li>
+								<li><a href="#">T-Shirt</a></li>
+							</ul><!-- nav nav-pills nav-stacked category-menu end -->
+						</div><!-- card-body end -->
+
+					</div><!-- card sidebar-menu ends -->
+
+					<div class="card sidebar-menu">
+						<!-- card sidebar-menu begin -->
+
+						<div class="card-header">
+							<!-- card-header begins -->
+							<h3 class="card-title">Categories</h3>
+						</div><!-- card-header ends -->
+
+						<div class="card-body">
+							<!-- card-body begin -->
+							<ul class="category-menu">
+								<!-- nav nav-pills nav-stacked category-menu begin -->
+								<li><a href="#">Men</a></li>
+								<li><a href="#">Women</a></li>
+								<li><a href="#">Kids</a></li>
+								<li><a href="#">Others</a></li>
+							</ul><!-- nav nav-pills nav-stacked category-menu end -->
+						</div><!-- card-body end -->
+
+					</div><!-- card sidebar-menu ends -->
+				</div><!-- col-md-3 end -->
+
+				<div class="col-md-9">
+					<!-- col-md-9 begin -->
+					<div class="box">
+						<!-- box begin -->
+						<h1>Shop</h1>
+						<p>
+							This is what the love of God means that we observe his commandment and yet his cmmandment are not burdensome. Jehovah is my strength.
+						</p>
+					</div><!-- box ends -->
+
+					<div class="row">
+						<!-- row begins -->
+						<div class="col-md-4 col-sm-6">
+							<!-- col-md-4 col-sm-6 center-responsive begin -->
+							<div class="card shadow text-center my-2">
+								<!-- card begins -->
+								<div>
+									<img src="images/product-10.jpg" alt="image1" class="img-fluid card-img-top" id="product-img">
+								</div>
+								<div class="card-body">
+									<!-- card-body begins -->
+									<h5 class="card-title"></h5>
+									<h6>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</h6>
+									<p class="my-2">
+										Classic Designer shirt sold at affordable price.Order now.
+									</p>
+									<h5>
+										<small><s class="text-secondary">$519</s></small>
+										<span class="price">$2000</span>
+									</h5>
+									<div class=" mt-2" id="myButton">
+										<a href="details.html" class="btn btn-success btn-sm">View Details</a>
+										<a href="details.html" class="btn btn-warning btn-sm ml-1" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div><!-- card-body ends -->
+							</div><!-- card ends -->
+						</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+						<div class="col-md-4 col-sm-6">
+							<!-- col-md-4 col-sm-6 center-responsive begin -->
+							<div class="card shadow text-center my-2">
+								<!-- card begins -->
+								<div>
+									<img src="images/product-11.jpg" alt="image1" class="img-fluid card-img-top" id="product-img">
+								</div>
+								<div class="card-body">
+									<!-- card-body begins -->
+									<h5 class="card-title"></h5>
+									<h6>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</h6>
+									<p class="my-2">
+										Classic Designer shirt sold at affordable price.Order now.
+									</p>
+									<h5>
+										<small><s class="text-secondary">$519</s></small>
+										<span class="price">$2000</span>
+									</h5>
+									<div class=" mt-2" id="myButton">
+										<a href="details.html" class="btn btn-success btn-sm">View Details</a>
+										<a href="details.html" class="btn btn-warning btn-sm ml-1" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div><!-- card-body ends -->
+							</div><!-- card ends -->
+						</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+						<div class="col-md-4 col-sm-6">
+							<!-- col-md-4 col-sm-6 center-responsive begin -->
+							<div class="card shadow text-center my-2">
+								<!-- card begins -->
+								<div>
+									<img src="images/product-13.jpg" alt="image1" class="img-fluid card-img-top" id="product-img">
+								</div>
+								<div class="card-body">
+									<!-- card-body begins -->
+									<h5 class="card-title"></h5>
+									<h6>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</h6>
+									<p class="my-2">
+										Classic Designer shirt sold at affordable price.Order now.
+									</p>
+									<h5>
+										<small><s class="text-secondary">$519</s></small>
+										<span class="price">$2000</span>
+									</h5>
+									<div class=" mt-2" id="myButton">
+										<a href="details.html" class="btn btn-success btn-sm">View Details</a>
+										<a href="details.html" class="btn btn-warning btn-sm ml-1" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div><!-- card-body ends -->
+							</div><!-- card ends -->
+						</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+						<div class="col-md-4 col-sm-6">
+							<!-- col-md-4 col-sm-6 center-responsive begin -->
+							<div class="card shadow text-center my-2">
+								<!-- card begins -->
+								<div>
+									<img src="images/product-16.jpg" alt="image1" class="img-fluid card-img-top" id="product-img">
+								</div>
+								<div class="card-body">
+									<!-- card-body begins -->
+									<h5 class="card-title"></h5>
+									<h6>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</h6>
+									<p class="my-2">
+										Classic Designer shirt sold at affordable price.Order now.
+									</p>
+									<h5>
+										<small><s class="text-secondary">$519</s></small>
+										<span class="price">$2000</span>
+									</h5>
+									<div class=" mt-2" id="myButton">
+										<a href="details.html" class="btn btn-success btn-sm">View Details</a>
+										<a href="details.html" class="btn btn-warning btn-sm ml-1" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div><!-- card-body ends -->
+							</div><!-- card ends -->
+						</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+						<div class="col-md-4 col-sm-6">
+							<!-- col-md-4 col-sm-6 center-responsive begin -->
+							<div class="card shadow text-center my-2">
+								<!-- card begins -->
+								<div>
+									<img src="images/product-min-01.jpg" alt="image1" class="img-fluid card-img-top" id="product-img">
+								</div>
+								<div class="card-body">
+									<!-- card-body begins -->
+									<h5 class="card-title"></h5>
+									<h6>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</h6>
+									<p class="my-2">
+										Classic Designer shirt sold at affordable price.Order now.
+									</p>
+									<h5>
+										<small><s class="text-secondary">$519</s></small> 
+										<span class="price">$2000</span>
+									</h5>
+									<div class=" mt-2" id="myButton">
+										<a href="details.html" class="btn btn-success btn-sm">View Details</a>
+										<a href="details.html" class="btn btn-warning btn-sm ml-1" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div><!-- card-body ends -->
+							</div><!-- card ends -->
+						</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+
+						<div class="col-md-4 col-sm-6">
+							<!-- col-md-4 col-sm-6 center-responsive begin -->
+							<div class="card shadow text-center my-2">
+								<!-- card begins -->
+								<div>
+									<img src="images/product-min-02.jpg" alt="image1" class="img-fluid card-img-top" id="product-img">
+								</div>
+								<div class="card-body">
+									<!-- card-body begins -->
+									<h5 class="card-title"></h5>
+									<h6>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="fas fa-star"></i>
+										<i class="far fa-star"></i>
+									</h6>
+									<p class="my-2">
+										Classic Designer shirt sold at affordable price.Order now.
+									</p>
+									<h5>
+										<small><s class="text-secondary">$519</s></small>
+										<span class="price">$2000</span>
+									</h5>
+									<div class=" mt-2" id="myButton">
+										<a href="details.html" class="btn btn-success btn-sm">View Details</a>
+										<a href="details.html" class="btn btn-warning btn-sm ml-1" name="add">Add to Cart<i class="fas fa-shopping-cart"></i></a>
+									</div>
+								</div><!-- card-body ends -->
+							</div><!-- card ends -->
+						</div><!-- col-md-4 col-sm-6 center-responsive ends -->
+					</div><!-- row ends -->
+				</div><!-- col-md-9 ends -->
+
+				<nav aria-label="" class="ml-auto mr-auto mt-5">
+					<ul class="pagination">
+						<li class="page-item">
+							<a class="page-link" href="#" tabindex="-1">First Page</a>
+						</li>
+						<li class="page-item"><a class="page-link" href="#">1</a></li>
+						<li class="page-item"><a class="page-link" href="#">2</a></li>
+						<li class="page-item"><a class="page-link" href="#">3</a></li>
+						<li class="page-item"><a class="page-link" href="#">4</a></li>
+						<li class="page-item"><a class="page-link" href="#">5</a></li>
+						<li class="page-item">
+							<a class="page-link" href="#">Last Page</a>
+						</li>
+					</ul>
+				</nav>
+
+			</div><!-- row end -->
+		</div><!-- container end -->
+	</div><!-- #content end -->
+
+
+	<div id="footer" class="mt-4">
+		<!-- #footer begins -->
+		<div class="container">
+			<!-- container begin -->
+			<div class="row">
+				<!-- row begins -->
+				<div class="col-sm-6 col-md-3">
+					<!--col-sm-6 col-md-3 begins -->
+
+					<h4>Pages</h4>
+
+					<ul>
+						<!-- ul begins -->
+						<li><a href="cart.html">Shopping Cart</a></li>
+						<li><a href="contact.html">Contact Us</a></li>
+						<li><a href="shop.html">Shop</a></li>
+						<li><a href="customer/my_account.html">My Account</a></li>
+					</ul><!-- ul ends -->
+					<hr class="d-md-none d-sm-block">
+
+					<h4>User Section</h4>
+
+					<ul>
+						<!-- ul begins -->
+						<li><a href="checkout.html">Login</a></li>
+						<li><a href="customer_register.html">Register</a></li>
+					</ul><!-- ul ends -->
+					<hr class="d-md-none d-sm-block">
+
+				</div>
+				<!--col-sm-6 col-md-3 ends -->
+
+				<div class="col-sm-6 col-md-3">
+					<!--col-sm-6 col-md-3 begins -->
+
+					<h4>Top Products Categories</h4>
+					<ul>
+						<!-- ul begins -->
+						<li><a href="#">Jackets</a></li>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Coats</a></li>
+						<li><a href="#">Shoes</a></li>
+						<li><a href="#">T-shirts</a></li>
+					</ul><!-- ul ends -->
+					<hr class="d-md-none d-sm-block">
+
+				</div>
+				<!--col-sm-6 col-md-3 ends -->
+
+				<div class="col-sm-6 col-md-3">
+					<!-- col-sm-6 col-md-3 begins -->
+
+					<h4>Find Us</h4>
+					<p>
+						<!-- p begins -->
+						<strong>Jtech inc</strong>
+						<br>Address
+						<br>Address
+						<br>07062043789
+						<br>jerryenabulele@gmail.com
+					</p><!-- p ends -->
+
+					<a href="contact.html">Check Our Contact Page</a>
+					<hr class="d-md-none d-sm-block">
+
+				</div><!-- col-sm-6 col-md-3 ends -->
+
+				<div class="col-sm-6 col-md-3">
+					<!-- col-sm-6 col-md-3 begin -->
+
+					<h4>Get The News</h4>
+					<p class="text-muted">
+						Don't miss our latest update products.
+					</p>
+
+					<form action="" method="get">
+						<!-- form begin -->
+						<div class="form-group input-group-prepend">
+							<!-- form-group begins -->
+							<input type="text" class="form-control" name="email">
+							<input type="submit" value="subscribe" class="btn btn-primary">
+						</div><!-- form-group ends -->
+					</form><!-- form ends -->
+					<hr class="d-md-none d-sm-block">
+
+					<h4>Keep In Touch</h4>
+					<p class="social">
+						<a href="#" class="fab fa-facebook"></a>
+						<a href="#" class="fab fa-twitter"></a>
+						<a href="#" class="fab fa-instagram"></a>
+						<a href="#" class="fab fa-google-plus"></a>
+						<a href="#" class="fa fa-envelope"></a>
+					</p>
+				</div><!-- col-sm-6 col-md-3 end -->
+			</div><!-- row ends -->
+		</div><!-- container ends -->
+	</div><!-- #footer ends -->
+
+
+
+
+
+
+
+
+
+
+	<script src="js/jquery-3.4.1.slim.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
